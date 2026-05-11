@@ -1,0 +1,2 @@
+E:\mtech1st year 2025 - 2026\SEM2\ANN\CNN_as\app.py:3: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  from cgi import FieldStorage
