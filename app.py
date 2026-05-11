@@ -1,5 +1,6 @@
 import json
 import mimetypes
+import os
 from cgi import FieldStorage
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -119,4 +120,6 @@ def run(host="127.0.0.1", port=8000):
 
 
 if __name__ == "__main__":
-    run()
+    host = os.environ.get("HOST", "0.0.0.0")
+    port = int(os.environ.get("PORT", "8000"))
+    run(host=host, port=port)
