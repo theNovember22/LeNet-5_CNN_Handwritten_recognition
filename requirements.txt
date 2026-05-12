@@ -1,6 +1,6 @@
-tensorflow
+tensorflow-cpu
+Pillow
 numpy
-pillow
 scikit-learn
-matplotlib
 seaborn
+matplotlib
